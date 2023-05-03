@@ -62,17 +62,57 @@
 		115168C42A0271D10068014F /* SpringAnimationHW */ = {
 			isa = PBXGroup;
 			children = (
-				115168C52A0271D10068014F /* AppDelegate.swift */,
-				115168C72A0271D10068014F /* SceneDelegate.swift */,
-				115168C92A0271D10068014F /* ViewController.swift */,
-				115168DC2A02757A0068014F /* DataStore.swift */,
-				115168DE2A0276CA0068014F /* Model.swift */,
-				115168CB2A0271D10068014F /* Main.storyboard */,
-				115168CE2A0271D20068014F /* Assets.xcassets */,
-				115168D02A0271D20068014F /* LaunchScreen.storyboard */,
-				115168D32A0271D20068014F /* Info.plist */,
+				115168E42A0289260068014F /* App */,
+				115168E02A0288E60068014F /* ViewControllers */,
+				115168E12A0288F70068014F /* Models */,
+				115168E32A0289160068014F /* StoryBoards */,
+				115168E52A02892F0068014F /* Resources */,
 			);
 			path = SpringAnimationHW;
+			sourceTree = "<group>";
+		};
+		115168E02A0288E60068014F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				115168C92A0271D10068014F /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		115168E12A0288F70068014F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				115168DE2A0276CA0068014F /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		115168E32A0289160068014F /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				115168CB2A0271D10068014F /* Main.storyboard */,
+				115168D02A0271D20068014F /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		115168E42A0289260068014F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				115168C52A0271D10068014F /* AppDelegate.swift */,
+				115168C72A0271D10068014F /* SceneDelegate.swift */,
+				115168D32A0271D20068014F /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		115168E52A02892F0068014F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				115168CE2A0271D20068014F /* Assets.xcassets */,
+				115168DC2A02757A0068014F /* DataStore.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
